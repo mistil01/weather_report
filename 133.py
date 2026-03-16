@@ -8,6 +8,7 @@ TOKEN = "8019190235:AAEJnJZ3SVbCerNN681Z040d0vjVNc4tU2o"
 
 WEATHER_REPORT_FOR_CITIES = {
     "Kaliningrad": "Kaliningrad",
+
     "Moscow": "Moscow",
     "Kazan": "Kazan"
 }
