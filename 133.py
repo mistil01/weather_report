@@ -5,15 +5,13 @@ from datetime import datetime
 from dotenv import load_dotenv
 import os
 
+load_dotenv()
 
-
-
-API_KEY = "BQGPUW9HYTACK9GUGMCWBNFE5"
-TOKEN = "8019190235:AAEJnJZ3SVbCerNN681Z040d0vjVNc4tU2o"
+API_KEY = os.getenv("VISUAL_CROSSING_API_KEY")
+TOKEN = os.getenv("TELEGRAM_TOKEN")
 
 WEATHER_REPORT_FOR_CITIES = {
     "Kaliningrad": "Kaliningrad",
-
     "Moscow": "Moscow",
     "Kazan": "Kazan"
 }
